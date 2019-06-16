@@ -1,3 +1,5 @@
+--Find the K'th element of a list. The first element in the list is number 1.
+
 main :: IO ()
 main = do
   print(elementAt [1,2,3] 2)

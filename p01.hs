@@ -1,3 +1,5 @@
+--Find the last element of a list.
+
 main :: IO()
 main = do
   print(myLast [1,2,3,4])

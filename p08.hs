@@ -1,3 +1,5 @@
+--Eliminate consecutive duplicates of list elements.
+
 main :: IO ()
 main = do
   print(compress "aaaabccaadeeee")

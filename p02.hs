@@ -1,3 +1,5 @@
+--Find the last but one element of a list.
+
 main :: IO ()
 main = do
   print(myButLast [1,2,3,4])

@@ -1,3 +1,5 @@
+--Reverse a list.
+
 main :: IO ()
 main = do
   print(myReverse "A man, a plan, a canal, panama!")

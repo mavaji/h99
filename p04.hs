@@ -1,3 +1,5 @@
+--Find the number of elements of a list.
+
 main :: IO()
 main = do
   print(myLength [123, 456, 789])

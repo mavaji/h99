@@ -1,3 +1,5 @@
+--Flatten a nested list structure.
+
 main :: IO ()
 main = do
   print(flatten (Elem 5))
