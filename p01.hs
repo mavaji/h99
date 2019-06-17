@@ -1,4 +1,4 @@
---Find the last element of a list.
+-- Find the last element of a list.
 
 main :: IO()
 main = do

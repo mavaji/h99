@@ -1,4 +1,4 @@
---Reverse a list.
+-- Reverse a list.
 
 main :: IO ()
 main = do

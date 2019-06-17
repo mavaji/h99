@@ -1,4 +1,4 @@
---Flatten a nested list structure.
+-- Flatten a nested list structure.
 
 main :: IO ()
 main = do

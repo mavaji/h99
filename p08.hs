@@ -1,4 +1,4 @@
---Eliminate consecutive duplicates of list elements.
+-- Eliminate consecutive duplicates of list elements.
 
 main :: IO ()
 main = do

@@ -1,4 +1,4 @@
---Find the number of elements of a list.
+-- Find the number of elements of a list.
 
 main :: IO()
 main = do
