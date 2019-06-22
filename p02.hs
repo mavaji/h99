@@ -1,9 +1,11 @@
 -- Find the last but one element of a list.
 
+import Test.HUnit.Base
+
 main :: IO ()
 main = do
-  print(myButLast [1,2,3,4])
-  print(myButLast ['a'..'z'])
+  myButLast [1,2,3,4] @?= 3
+  myButLast ['a'..'z'] @?= 'y'
 
 myButLast :: [a] -> a
 myButLast [] = error "empty list"

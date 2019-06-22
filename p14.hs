@@ -1,6 +1,10 @@
+-- Duplicate the elements of a list.
+
+import Test.HUnit.Base
+
 main :: IO ()
 main = do
-  print $ dupli [1, 2, 3]
+  dupli [1, 2, 3] @?= [1,1,2,2,3,3]
 
 dupli :: [a] -> [a]
 dupli [] = []

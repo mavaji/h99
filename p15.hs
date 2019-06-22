@@ -1,6 +1,10 @@
+-- Replicate the elements of a list a given number of times.
+
+import Test.HUnit.Base
+
 main :: IO ()
 main = do
-  print $ repli "abc" 3
+  repli "abc" 3 @?= "aaabbbccc"
 
 repli :: [a] -> Int -> [a]
 repli [] _ = []

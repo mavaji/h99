@@ -1,6 +1,10 @@
+-- Drop every N'th element from a list.
+
+import Test.HUnit.Base
+
 main :: IO ()
 main = do
-  print $ dropEvery "abcdefghik" 3
+  dropEvery "abcdefghik" 3 @?= "abdeghk"
 
 dropEvery :: [a] -> Int -> [a]
 dropEvery [] _ = []

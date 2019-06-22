@@ -1,8 +1,10 @@
 -- Eliminate consecutive duplicates of list elements.
 
+import Test.HUnit.Base
+
 main :: IO ()
 main = do
-  print(compress "aaaabccaadeeee")
+  compress "aaaabccaadeeee" @?= "abcade"
 
 compress :: (Eq a) => [a] -> [a]
 compress [] = []

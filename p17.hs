@@ -1,8 +1,11 @@
 -- Split a list into two parts; the length of the first part is given.
 -- Do not use any predefined predicates.
+
+import Test.HUnit.Base
+
 main :: IO ()
 main = do
-  print $ split "abcdefghik" 3
+  split "abcdefghik" 3 @?= ("abc", "defghik")
 
 split :: [a] -> Int -> ([a], [a])
 split [] _ = ([], [])

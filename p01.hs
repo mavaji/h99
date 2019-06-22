@@ -1,9 +1,11 @@
 -- Find the last element of a list.
 
+import Test.HUnit.Base
+
 main :: IO()
 main = do
-  print(myLast [1,2,3,4])
-  print(myLast ['x', 'y', 'z'])
+  myLast [1,2,3,4] @?= 4
+  myLast ['x', 'y', 'z'] @?= 'z'
 
 
 myLast :: [a] -> a
