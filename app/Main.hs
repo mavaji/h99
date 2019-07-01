@@ -1,6 +1,6 @@
 module Main where
 
-import           P31_41_Arithmetic.P34
+import           P54A_60_Binary_Trees.P54A
 
 main :: IO ()
-main = main34
+main = main54A

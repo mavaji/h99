@@ -27,7 +27,7 @@ source-repository head
 
 library
   exposed-modules:
-      P31_41_Arithmetic.P34
+      P54A_60_Binary_Trees.P54A
   other-modules:
       Paths_h99
   hs-source-dirs:
