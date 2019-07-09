@@ -27,7 +27,7 @@ source-repository head
 
 library
   exposed-modules:
-      P54A_60_Binary_Trees.P54A
+      P54A_60_Binary_Trees.P55
   other-modules:
       Paths_h99
   hs-source-dirs:
@@ -35,6 +35,7 @@ library
   build-depends:
       base >=4.7 && <5
       , HUnit
+      , containers
   default-language: Haskell2010
 
 executable h99-exe
@@ -48,6 +49,7 @@ executable h99-exe
       base >=4.7 && <5
     , h99
     , HUnit
+    , containers
   default-language: Haskell2010
 
 test-suite h99-test
@@ -62,4 +64,5 @@ test-suite h99-test
       base >=4.7 && <5
     , h99
     , HUnit
+    , containers
   default-language: Haskell2010
