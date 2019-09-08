@@ -1,4 +1,4 @@
--- Flatten a nested list structure.
+-- | Flatten a nested list structure.
 module P01_10_Lists.P07 where
 
 import           Test.HUnit.Base

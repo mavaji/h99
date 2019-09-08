@@ -1,5 +1,5 @@
--- Rotate a list N places to the left.
--- Hint: Use the predefined functions length and (++).
+-- | Rotate a list N places to the left.
+--   Hint: Use the predefined functions length and (++).
 module P11_20_Lists_Continued.P19 where
 
 import           Test.HUnit.Base

@@ -1,8 +1,8 @@
--- Construct completely balanced binary trees
--- In a completely balanced binary tree, the following property holds for every node: The number of nodes in its left
+-- | Construct completely balanced binary trees
+--   In a completely balanced binary tree, the following property holds for every node: The number of nodes in its left
 --   subtree and the number of nodes in its right subtree are almost equal, which means their difference is not greater than one.
--- Write a function cbal-tree to construct completely balanced binary trees for a given number of nodes.
--- The predicate should generate all solutions via backtracking. Put the letter 'x' as information into all nodes of the tree.
+--   Write a function cbal-tree to construct completely balanced binary trees for a given number of nodes.
+--   The predicate should generate all solutions via backtracking. Put the letter 'x' as information into all nodes of the tree.
 module P54A_60_Binary_Trees.P55 where
 
 import           Test.HUnit.Base

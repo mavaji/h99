@@ -1,4 +1,4 @@
--- Find the last but one element of a list.
+-- | Find the last but one element of a list.
 module P01_10_Lists.P02 where
 
 import           Test.HUnit.Base

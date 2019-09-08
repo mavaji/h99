@@ -1,4 +1,4 @@
--- Determine whether a given integer number is prime.
+-- | Determine whether a given integer number is prime.
 module P31_41_Arithmetic.P31 where
 
 import           Test.HUnit.Base

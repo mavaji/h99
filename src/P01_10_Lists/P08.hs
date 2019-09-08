@@ -1,4 +1,4 @@
--- Eliminate consecutive duplicates of list elements.
+-- | Eliminate consecutive duplicates of list elements.
 module P01_10_Lists.P08 where
 
 import           Test.HUnit.Base

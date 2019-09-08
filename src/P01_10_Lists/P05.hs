@@ -1,4 +1,4 @@
--- Reverse a list.
+-- | Reverse a list.
 module P01_10_Lists.P05 where
 
 import           Test.HUnit.Base

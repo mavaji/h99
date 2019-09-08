@@ -1,4 +1,4 @@
--- Check whether a given term represents a binary tree
+-- | Check whether a given term represents a binary tree
 module P54A_60_Binary_Trees.P54A where
 
 main54A :: IO ()

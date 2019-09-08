@@ -1,6 +1,6 @@
---English number words
---On financial documents, like cheques, numbers must sometimes be written in full words. Example: 175 must be written as
--- one-seven-five. Write a predicate full-words/1 to print (non-negative) integer numbers in full words.
+-- | English number words
+--   On financial documents, like cheques, numbers must sometimes be written in full words. Example: 175 must be written as
+--   one-seven-five. Write a predicate full-words/1 to print (non-negative) integer numbers in full words.
 module P95_99_Miscellaneous_Problems.P95 where
 
 import           Data.Map        (Map, (!))

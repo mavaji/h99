@@ -1,4 +1,4 @@
--- Replicate the elements of a list a given number of times.
+-- | Replicate the elements of a list a given number of times.
 module P11_20_Lists_Continued.P15 where
 
 import           Test.HUnit.Base

@@ -1,4 +1,4 @@
--- Find the number of elements of a list.
+-- | Find the number of elements of a list.
 module P01_10_Lists.P04 where
 
 import           Test.HUnit.Base

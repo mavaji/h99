@@ -1,4 +1,4 @@
--- Find the last element of a list.
+-- | Find the last element of a list.
 module P01_10_Lists.P01 where
 
 import           Test.HUnit.Base

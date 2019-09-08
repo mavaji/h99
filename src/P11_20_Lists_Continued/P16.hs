@@ -1,4 +1,4 @@
--- Drop every N'th element from a list.
+-- | Drop every N'th element from a list.
 module P11_20_Lists_Continued.P16 where
 
 import           Test.HUnit.Base

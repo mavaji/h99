@@ -1,4 +1,4 @@
--- Find out whether a list is a palindrome. A palindrome can be read forward or backward; e.g. (x a m a x).
+-- | Find out whether a list is a palindrome. A palindrome can be read forward or backward; e.g. (x a m a x).
 module P01_10_Lists.P06 where
 
 import           Test.HUnit.Base

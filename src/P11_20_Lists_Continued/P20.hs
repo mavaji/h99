@@ -1,4 +1,4 @@
--- Remove the K'th element from a list.
+-- | Remove the K'th element from a list.
 module P11_20_Lists_Continued.P20 where
 
 import           Test.HUnit.Base

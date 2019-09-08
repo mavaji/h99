@@ -1,4 +1,4 @@
--- Create a list containing all integers within a given range.
+-- | Create a list containing all integers within a given range.
 module P21_28_Lists_Again.P22 where
 
 import           Test.HUnit.Base

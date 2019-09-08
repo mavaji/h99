@@ -1,5 +1,5 @@
--- Decode a run-length encoded list.
--- Given a run-length code list generated as specified in problem 11. Construct its uncompressed version.
+-- | Decode a run-length encoded list.
+--   Given a run-length code list generated as specified in problem 11. Construct its uncompressed version.
 module P11_20_Lists_Continued.P12 where
 
 import           Test.HUnit.Base

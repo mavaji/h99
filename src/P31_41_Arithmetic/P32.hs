@@ -1,4 +1,4 @@
--- Determine the greatest common divisor of two positive integer numbers. Use Euclid's algorithm
+-- | Determine the greatest common divisor of two positive integer numbers. Use Euclid's algorithm
 module P31_41_Arithmetic.P32 where
 
 import           Test.HUnit.Base

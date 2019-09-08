@@ -1,4 +1,4 @@
--- Pack consecutive duplicates of list elements into sublists. If a list contains repeated elements they should be placed in separate sublists.
+-- | Pack consecutive duplicates of list elements into sublists. If a list contains repeated elements they should be placed in separate sublists.
 module P01_10_Lists.P09 where
 
 import           Test.HUnit.Base

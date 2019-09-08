@@ -1,4 +1,4 @@
--- Insert an element at a given position into a list.
+-- | Insert an element at a given position into a list.
 module P21_28_Lists_Again.P21 where
 
 import           Test.HUnit.Base

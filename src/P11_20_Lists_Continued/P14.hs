@@ -1,4 +1,4 @@
--- Duplicate the elements of a list.
+-- | Duplicate the elements of a list.
 module P11_20_Lists_Continued.P14 where
 
 import           Test.HUnit.Base

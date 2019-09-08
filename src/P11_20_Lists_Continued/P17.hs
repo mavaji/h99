@@ -1,5 +1,5 @@
--- Split a list into two parts; the length of the first part is given.
--- Do not use any predefined predicates.
+-- | Split a list into two parts; the length of the first part is given.
+--   Do not use any predefined predicates.
 module P11_20_Lists_Continued.P17 where
 
 import           Test.HUnit.Base
