@@ -1,6 +1,6 @@
 module Main where
 
-import           P46_50_Logic_And_Codes.P47
+import           P46_50_Logic_And_Codes.P49
 
 main :: IO ()
-main = main47
+main = main49
