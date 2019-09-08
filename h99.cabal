@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       P46_50_Logic_And_Codes.P46
+      , P46_50_Logic_And_Codes.P47
   other-modules:
       Paths_h99
   hs-source-dirs:
