@@ -38,7 +38,7 @@ xor2 :: Bool -> Bool -> Bool
 xor2 a b = (a && not b) || (not a && b)
 
 impl2 :: Bool -> Bool -> Bool
-impl2 a b = a || not b
+impl2 a b = not a || b
 
 equ2 :: Bool -> Bool -> Bool
 equ2 a b = a == b
