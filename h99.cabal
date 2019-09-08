@@ -27,7 +27,7 @@ source-repository head
 
 library
   exposed-modules:
-      P54A_60_Binary_Trees.P55
+      P95_99_Miscellaneous_Problems.P95
   other-modules:
       Paths_h99
   hs-source-dirs:
